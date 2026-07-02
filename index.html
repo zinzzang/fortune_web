@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>오늘의 운세 | 신비로운 카드 점</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+
+  <main class="container">
+    <header class="header">
+      <p class="eyebrow">MYSTIC ORACLE</p>
+      <h1>오늘의 운세</h1>
+      <p class="subtitle">마음이 이끄는 카드 한 장을 골라보세요</p>
+    </header>
+
+    <section class="cards" id="cardGrid"></section>
+
+    <div class="result" id="resultBox" hidden>
+      <p class="result-label">오늘의 메시지</p>
+      <p class="result-message" id="resultMessage"></p>
+    </div>
+
+    <button class="reset-btn" id="resetBtn" hidden>다시 뽑기</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
